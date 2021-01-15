@@ -7,16 +7,12 @@ interface propsType extends SelectHTMLAttributes<HTMLSelectElement> {
   generateLabel?(data: Dataset): string;
 }
 
-export default function HtmlEmojiCountrycodeSelector(props: propsType) {
+export default function HtmlEmojiCountryCodeSelector(props: propsType) {
   function getLabel(row: Dataset) {
     if (props.generateLabel) {
       return props.generateLabel(row);
     } else {
-      return (
-        <>
-          {row.ISO} {row.flag} {row.code}
-        </>
-      );
+      return `${row.ISO} ${row.flag} ${row.code}`;
     }
   }
   function getValue(row: Dataset) {
@@ -28,7 +24,7 @@ export default function HtmlEmojiCountrycodeSelector(props: propsType) {
   }
   return (
     <select {...props}>
-      {props.children}
+      {props.children || ""}
       {data.map((row: Dataset) => (
         <option key={row.ISO + row.code} value={getValue(row)}>
           {getLabel(row)}

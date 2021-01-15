@@ -23,3 +23,12 @@ test("Events are called", () => {
   component.simulate("change");
   expect(mockCallback).toBeCalledTimes(1);
 });
+
+test("The component build works", () => {
+  const imported = require("../../index").HtmlEmojiCountryCodeSelector;
+  expect(imported).toBeDefined();
+});
+test("The dataset build works", () => {
+  const imported = require("../../index").dataset;
+  expect(imported).toBeDefined();
+});

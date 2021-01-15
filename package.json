@@ -2,7 +2,7 @@
   "name": "react-emoji-country-code-selector",
   "version": "1.0.0",
   "description": "Pure html phone country code selector showing country flags as emojis, built as a React component",
-  "main": "src/index.tsx",
+  "main": "index.js",
   "author": "Diego Scafati <dscafati@gmail.com>",
   "license": "MIT",
   "private": false,
