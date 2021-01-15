@@ -9,7 +9,7 @@ This is a React component that generates a pure html `<select>` element populate
 In practice, there are countries with more than one code, and codes in more than one country (N:N).
 
 ## Example
-[![Screenshot](https://raw.githubusercontent.com/dscafati/react-emoji-country-code-selector/main/screenshot.png)]
+![Screenshot](https://raw.githubusercontent.com/dscafati/react-emoji-country-code-selector/main/screenshot.png)
 
 ## Usage
 
