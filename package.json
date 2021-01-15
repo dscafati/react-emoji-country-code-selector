@@ -33,7 +33,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "test": "jest --watch"
+    "test": "jest"
   },
   "jest": {
     "moduleNameMapper": {
