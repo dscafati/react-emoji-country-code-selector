@@ -6,7 +6,10 @@
 
 This is a React component that generates a pure html `<select>` element populated with a list of countries and their respective country codes.
 
-In practice, there are countries with more than one code, and codes in more than one country (N:N)
+In practice, there are countries with more than one code, and codes in more than one country (N:N).
+
+## Example
+[![Screenshot](https://raw.githubusercontent.com/dscafati/react-emoji-country-code-selector/main/screenshot.png)]
 
 ## Usage
 
