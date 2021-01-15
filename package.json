@@ -37,7 +37,7 @@
   },
   "jest": {
     "moduleNameMapper": {
-      "\\.(csv)$": "<rootDir>/test/__mocks__/dataset.js"
+      "dataset\\.(csv)$": "<rootDir>/test/__mocks__/dataset.js"
     }
   },
   "dependencies": {
